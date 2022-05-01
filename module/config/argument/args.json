@@ -134,6 +134,36 @@
       }
     }
   },
+  "AlasCloud": {
+    "AlasCloud": {
+      "CloudID": {
+        "type": "input",
+        "value": ""
+      },
+      "CloudServer": {
+        "type": "select",
+        "value": "cn",
+        "option": [
+          "main",
+          "cn"
+        ]
+      },
+      "SyncMethod": {
+        "type": "select",
+        "value": "do_not_use",
+        "option": [
+          "do_not_use",
+          "sync_config_only",
+          "local_first_cloud_standby",
+          "entirely_on_cloud"
+        ]
+      },
+      "GameAccount": {
+        "type": "textarea",
+        "value": ""
+      }
+    }
+  },
   "General": {
     "Retirement": {
       "Enable": {

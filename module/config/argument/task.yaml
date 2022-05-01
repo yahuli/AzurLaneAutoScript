@@ -9,6 +9,8 @@ Alas:
   - Error
   - Optimization
   - DropRecord
+AlasCloud:
+  - AlasCloud
 General:
   - Retirement
 Restart:

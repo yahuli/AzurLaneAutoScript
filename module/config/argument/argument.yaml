@@ -62,6 +62,17 @@ Retirement:
   OldRetireR: true
   OldRetireSR: false
   OldRetireSSR: false
+AlasCloud:
+  CloudID: ''
+  CloudServer:
+    value: cn
+    option: [main, cn]
+  SyncMethod:
+    value: do_not_use
+    option: [do_not_use, sync_config_only, local_first_cloud_standby, entirely_on_cloud]
+  GameAccount:
+    value: ''
+    type: textarea
 
 # ==================== Farm ====================
 

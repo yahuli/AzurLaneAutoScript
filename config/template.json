@@ -31,6 +31,14 @@
       "SaveMeowfficer": false
     }
   },
+  "AlasCloud": {
+    "AlasCloud": {
+      "CloudID": null,
+      "CloudServer": "cn",
+      "SyncMethod": "do_not_use",
+      "GameAccount": null
+    }
+  },
   "General": {
     "Retirement": {
       "Enable": true,

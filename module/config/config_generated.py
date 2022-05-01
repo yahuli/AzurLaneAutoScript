@@ -59,6 +59,12 @@ class GeneratedConfig:
     Retirement_OldRetireSR = False
     Retirement_OldRetireSSR = False
 
+    # Group `AlasCloud`
+    AlasCloud_CloudID = None
+    AlasCloud_CloudServer = 'cn'  # main, cn
+    AlasCloud_SyncMethod = 'do_not_use'  # do_not_use, sync_config_only, local_first_cloud_standby, entirely_on_cloud
+    AlasCloud_GameAccount = None
+
     # Group `Campaign`
     Campaign_Name = '12-4'
     Campaign_Event = 'campaign_main'  # campaign_main

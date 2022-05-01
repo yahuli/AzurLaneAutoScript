@@ -42,6 +42,10 @@
       "name": "Alas",
       "help": ""
     },
+    "AlasCloud": {
+      "name": "Task.AlasCloud.name",
+      "help": "Task.AlasCloud.help"
+    },
     "General": {
       "name": "General",
       "help": ""
@@ -458,6 +462,34 @@
     "OldRetireSSR": {
       "name": "Retire Super Rare",
       "help": "Only applies to old retire mode"
+    }
+  },
+  "AlasCloud": {
+    "_info": {
+      "name": "AlasCloud._info.name",
+      "help": "AlasCloud._info.help"
+    },
+    "CloudID": {
+      "name": "AlasCloud.CloudID.name",
+      "help": "AlasCloud.CloudID.help"
+    },
+    "CloudServer": {
+      "name": "AlasCloud.CloudServer.name",
+      "help": "AlasCloud.CloudServer.help",
+      "main": "main",
+      "cn": "cn"
+    },
+    "SyncMethod": {
+      "name": "AlasCloud.SyncMethod.name",
+      "help": "AlasCloud.SyncMethod.help",
+      "do_not_use": "do_not_use",
+      "sync_config_only": "sync_config_only",
+      "local_first_cloud_standby": "local_first_cloud_standby",
+      "entirely_on_cloud": "entirely_on_cloud"
+    },
+    "GameAccount": {
+      "name": "AlasCloud.GameAccount.name",
+      "help": "AlasCloud.GameAccount.help"
     }
   },
   "Campaign": {

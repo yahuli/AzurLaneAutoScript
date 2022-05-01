@@ -42,6 +42,10 @@
       "name": "Alas设置",
       "help": ""
     },
+    "AlasCloud": {
+      "name": "云Alas设置",
+      "help": ""
+    },
     "General": {
       "name": "通用设置",
       "help": ""
@@ -458,6 +462,34 @@
     "OldRetireSSR": {
       "name": "退役金皮 ( SSR )",
       "help": ""
+    }
+  },
+  "AlasCloud": {
+    "_info": {
+      "name": "云 Alas 设置",
+      "help": "重要：不要将 Alas 配置文件共享给他人"
+    },
+    "CloudID": {
+      "name": "云 Alas ID",
+      "help": "申请一个 ID 以通过云端同步，或者填入一个已有的 ID 以使用同步"
+    },
+    "CloudServer": {
+      "name": "云 Alas 服务器",
+      "help": "国内用户使用 “国内反向代理”",
+      "main": "主服务器",
+      "cn": "国内反向代理"
+    },
+    "SyncMethod": {
+      "name": "同步方式",
+      "help": "选择“仅同步配置”时，不需要填写游戏帐号\n云端运行仅支持国服官服，选择“本地运行优先云端待命”时，本地Alas停止5分钟后，云Alas开始运行，本地重新上线后，云Alas停止运行\n选择“完全在云端运行”时，本地Alas只可修改配置，请不要登录游戏帐号顶替云端",
+      "do_not_use": "不使用",
+      "sync_config_only": "仅同步配置",
+      "local_first_cloud_standby": "本地运行优先云端待命",
+      "entirely_on_cloud": "完全在云端运行"
+    },
+    "GameAccount": {
+      "name": "游戏帐号",
+      "help": "填写游戏帐号密码区服，仅在设置云端运行时需要填写。\n帐号信息将通过非对称加密储存，无法直接修改只能重新填写"
     }
   },
   "Campaign": {
