@@ -18,7 +18,7 @@ import module.webui.lang as lang
 from module.config.config import AzurLaneConfig, Function
 from module.config.utils import (alas_instance, deep_get, deep_iter, deep_set,
                                  dict_to_kv, filepath_args, filepath_config,
-                                 read_file, write_file)
+                                 read_file, set_update_time, write_file)
 from module.logger import logger
 from module.ocr.rpc import start_ocr_server_process, stop_ocr_server_process
 from module.webui.base import Frame
@@ -439,6 +439,7 @@ class AlasGUI(Frame):
                         logger.info(
                             f"Save config {filepath_config(config_name)}, {dict_to_kv(modified)}"
                         )
+                        set_update_time(config)
                         write_file(filepath_config(config_name), config)
                     modified.clear()
                     valid.clear()

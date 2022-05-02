@@ -487,6 +487,10 @@
       "local_first_cloud_standby": "local_first_cloud_standby",
       "entirely_on_cloud": "entirely_on_cloud"
     },
+    "UpdateTime": {
+      "name": "AlasCloud.UpdateTime.name",
+      "help": "AlasCloud.UpdateTime.help"
+    },
     "GameAccount": {
       "name": "AlasCloud.GameAccount.name",
       "help": "AlasCloud.GameAccount.help"

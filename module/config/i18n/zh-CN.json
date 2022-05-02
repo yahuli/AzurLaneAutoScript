@@ -487,6 +487,10 @@
       "local_first_cloud_standby": "本地运行优先云端待命",
       "entirely_on_cloud": "完全在云端运行"
     },
+    "UpdateTime": {
+      "name": "当前配置更新时间",
+      "help": "与云端同步时，将保留较新的配置，UTC 时间，不建议随意修改"
+    },
     "GameAccount": {
       "name": "游戏帐号",
       "help": "填写游戏帐号密码区服，仅在设置云端运行时需要填写。\n帐号信息将通过非对称加密储存，无法直接修改只能重新填写"

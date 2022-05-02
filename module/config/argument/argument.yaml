@@ -70,6 +70,7 @@ AlasCloud:
   SyncMethod:
     value: do_not_use
     option: [do_not_use, sync_config_only, local_first_cloud_standby, entirely_on_cloud]
+  UpdateTime: 2020-01-01 00:00:00
   GameAccount:
     value: ''
     type: textarea

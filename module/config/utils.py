@@ -566,5 +566,24 @@ def type_to_str(typ):
     return str(typ)
 
 
+def get_utc_time():
+    return datetime.utcfromtimestamp(datetime.now().timestamp()).replace(microsecond=0)
+
+
+def set_update_time(data):
+    """
+    Set update time in user config.
+    This method should be called after modifying any config.
+
+    Args:
+        data (dict): User config
+
+    Returns:
+        dict:
+    """
+    deep_set(data, keys='AlasCloud.AlasCloud.UpdateTime', value=get_utc_time())
+    return data
+
+
 if __name__ == '__main__':
     get_os_reset_remain()

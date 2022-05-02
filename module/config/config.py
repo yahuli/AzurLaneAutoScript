@@ -227,6 +227,7 @@ class AzurLaneConfig(ConfigUpdater, ManualConfig, GeneratedConfig):
         logger.info(f'Save config {filepath_config(self.config_name)}, {dict_to_kv(self.modified)}')
         # Don't use self.modified = {}, that will create a new object.
         self.modified.clear()
+        set_update_time(self.data)
         write_file(filepath_config(self.config_name), data=self.data)
 
     def update(self):

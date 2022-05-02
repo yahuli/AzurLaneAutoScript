@@ -63,6 +63,7 @@ class GeneratedConfig:
     AlasCloud_CloudID = None
     AlasCloud_CloudServer = 'cn'  # main, cn
     AlasCloud_SyncMethod = 'do_not_use'  # do_not_use, sync_config_only, local_first_cloud_standby, entirely_on_cloud
+    AlasCloud_UpdateTime = datetime.datetime(2020, 1, 1, 0, 0)
     AlasCloud_GameAccount = None
 
     # Group `Campaign`
