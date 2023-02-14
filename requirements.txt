@@ -70,7 +70,7 @@ rich==11.0.0              # via -r requirements-in.txt
 scipy==1.4.1              # via -r requirements-in.txt, gluoncv
 six==1.16.0               # via adbutils, cycler, python-dateutil, retrying, uiautomator2
 sniffio==1.2.0            # via anyio
-starlette==0.14.2         # via -r requirements-in.txt
+starlette==0.25.0         # via -r requirements-in.txt
 tornado==6.1              # via pywebio
 tqdm==4.62.3              # via -r requirements-in.txt, gluoncv
 typing-extensions==3.10.0.2  # via asgiref, importlib-metadata, rich, uvicorn
