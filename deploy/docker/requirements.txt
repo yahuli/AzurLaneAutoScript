@@ -8,7 +8,7 @@ tqdm
 adbutils==0.11.0
 uiautomator2==2.16.7
 retrying
-mxnet==1.6.0
+mxnet==1.9.1
 cnocr==1.2.2
 jellyfish
 pyyaml
